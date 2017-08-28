@@ -1,5 +1,5 @@
 # CryptoCash
-*Coinbase clone and paper trading web app specifically for cryptocurrencies*
+*Coinbase clone and cryptocurrency paper trading web app*
 
 ## Purpose 
 View up-to-date cryptocoin (BTC/ETH/LTC) prices with multiple chart views. Signing up for an account will allow users to make simulated buy and sell orders and track their account's simulated balance over time.

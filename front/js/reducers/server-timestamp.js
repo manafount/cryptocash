@@ -6,7 +6,7 @@ import { handleActions } from 'redux-actions';
 
 import {
   SERVER_TIMESTAMP_UPDATE,
-} from '../constants/reducer-actions.const';
+} from '../constants/reducer-actions';
 
 const initialState = null;
 

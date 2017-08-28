@@ -6,7 +6,7 @@ import axios from 'axios';
 
 import {
   SERVER_TIMESTAMP_UPDATE,
-} from '../constants/reducer-actions.const';
+} from '../constants/reducer-actions';
 
 /**
  * Update server timestamp.

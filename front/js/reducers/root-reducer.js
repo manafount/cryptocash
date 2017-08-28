@@ -4,7 +4,7 @@
 
 import { combineReducers } from 'redux';
 
-import serverTimestamp from './server-timestamp.redux';
+import serverTimestamp from './server-timestamp';
 
 export default combineReducers({
   serverTimestamp,

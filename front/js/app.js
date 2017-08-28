@@ -11,8 +11,8 @@ import { Provider } from 'react-redux';
 import { createStore, applyMiddleware } from 'redux';
 import thunkMiddleware from 'redux-thunk';
 
-import rootReducer from './reducers/root-reducer.redux';
-import HelloWorld from './containers/hello-world.cont';
+import rootReducer from './reducers/root-reducer';
+import HelloWorld from './containers/hello-world';
 
 let appBoot = module.exports = {};
 
