@@ -12,7 +12,7 @@ import { createStore, applyMiddleware } from 'redux';
 import thunkMiddleware from 'redux-thunk';
 
 import rootReducer from './reducers/root-reducer';
-import HelloWorld from './containers/hello-world';
+import BasicChart from './containers/basic-chart';
 
 let appBoot = module.exports = {};
 
@@ -31,7 +31,7 @@ appBoot.init = function() {
 
   ReactDom.render(
     <Provider store={ store }>
-      <HelloWorld />
+      <BasicChart />
     </Provider>,
     document.getElementById('app')
   );

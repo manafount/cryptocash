@@ -13,7 +13,7 @@ module RailsReactBoilerplate
     # -- all .rb files in that directory are automatically loaded.
 
     config.assets.enabled = false
-
+    config.cache_store = :redis_store, 'redis://localhost:6379/0/cache', { expires_in: 90.minutes }
     config.generators do |generator|
       generator.assets false
     end
